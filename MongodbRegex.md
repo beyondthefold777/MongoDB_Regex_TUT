@@ -9,6 +9,18 @@ This tutorial will cover the basics of regular expressions and how to use them i
 ```javascript
 db.collection.find({ field: { $regex: /pattern/ } });
 
+Table of Contents
+
+    Anchors
+    Quantifiers
+    Grouping Constructs
+    Bracket Expressions
+    Character Classes
+    The OR Operator
+    Flags
+    Character Escapes
+
+
 
 
 
