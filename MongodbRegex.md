@@ -8,7 +8,7 @@ This tutorial will cover the basics of regular expressions and how to use them i
 
 
 
-Table of Contents
+## Table of Contents
 
 • Anchors
 • Quantifiers
