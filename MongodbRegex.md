@@ -11,14 +11,14 @@ db.collection.find({ field: { $regex: /pattern/ } });
 
 Table of Contents
 
-    Anchors
-    Quantifiers
-    Grouping Constructs
-    Bracket Expressions
-    Character Classes
-    The OR Operator
-    Flags
-    Character Escapes
+* Anchors
+* Quantifiers
+* Grouping Constructs
+* Bracket Expressions
+* Character Classes
+* The OR Operator
+* Flags
+* Character Escapes
 
 
 
