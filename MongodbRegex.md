@@ -39,3 +39,15 @@ db.collection.find({ field: { $regex: /colou?r/ } });
 Grouping constructs are used to apply quantifiers to multiple characters or to capture subpatterns for back-references. They are created using parentheses `()`.
 
 `db.collection.find({  field:  {  $regex:  /(abc)+/  }  });`
+
+### Bracket Expressions
+
+Bracket expressions, or character sets, define a set of characters that can match a single character in the input string. They are enclosed in square brackets `[]`.
+
+`db.collection.find({  field:  {  $regex:  /[aeiou]/  }  });`
+
+### Character Classes
+
+Character classes match a specific type of character. For example, `\d` matches any digit, and `\w` matches any word character (alphanumeric and underscore).
+
+`db.collection.find({  field:  {  $regex:  /\d+/  }  });`
