@@ -11,4 +11,4 @@ db.collection.find({ field: { $regex: /pattern/ } });
 
 
 
-<script src="https://gist.github.com/beyondthefold777/af0c5d972bdbbca3bc3171a5ac4a8d85.js"></script>
+
