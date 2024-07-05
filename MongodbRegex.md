@@ -6,8 +6,7 @@ Regular expressions (regex) are powerful tools for pattern matching and searchin
 
 This tutorial will cover the basics of regular expressions and how to use them in MongoDB queries. We will explore anchors, quantifiers, grouping constructs, bracket expressions, character classes, the OR operator, flags, and character escapes. Here's a sample regex to get started:
 
-```javascript
-db.collection.find({ field: { $regex: /pattern/ } });
+
 
 Table of Contents
 
